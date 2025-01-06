@@ -1,0 +1,6 @@
+2025-01-06T14:13:11.163+05:30 DEBUG 15584 --- [CustomerJunitExample] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/customers", parameters={}
+2025-01-06T14:13:11.163+05:30 DEBUG 15584 --- [CustomerJunitExample] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.customer.controller.CustomerController#getAllCustomers()
+2025-01-06T14:13:11.163+05:30  INFO 15584 --- [CustomerJunitExample] [http-nio-8080-exec-5] c.c.controller.CustomerController        : fetching all customer details in controller
+2025-01-06T14:13:11.349+05:30 DEBUG 15584 --- [CustomerJunitExample] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-06T14:13:11.349+05:30 DEBUG 15584 --- [CustomerJunitExample] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Customer(id=1, name=hello, email=sss)]]
+2025-01-06T14:13:11.349+05:30 DEBUG 15584 --- [CustomerJunitExample] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
